@@ -1,0 +1,19 @@
+redis:
+  redis_host: 'localhost'
+  redis_port: 6379
+  redis_db: 1
+
+es:
+  es_hosts:
+    - 'localhost'
+  es_port: 6379
+
+log:
+  log_file: 'app.log'
+  log_level: 'INFO'
+  log_formatter: '%(asctime)s - %(filename)s - %(lineno)s - %(funcName)s - %(levelname)s - %(message)s'
+
+kafka:
+  consumer_group: 'vpn-alert'
+  topic: 'icingaEvent'
+  broker: 'kafka://kafka:9092'
