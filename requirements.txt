@@ -1,7 +1,7 @@
 asgiref==3.2.5
 certifi==2019.11.28
 chardet==3.0.4
-Django==3.0.4
+Django==3.0.12
 django-elasticsearch-dsl==7.1.1
 django-elasticsearch-dsl-drf==0.20.5
 django-filter==2.2.0
